@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDF8C4401EE2E48C004715F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C43F1EE2E48C004715F8 /* main.m */; };
+		DDF8C4431EE2E48C004715F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4421EE2E48C004715F8 /* AppDelegate.m */; };
+		DDF8C4461EE2E48C004715F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C4451EE2E48C004715F8 /* ViewController.m */; };
+		DDF8C4491EE2E48C004715F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8C4471EE2E48C004715F8 /* Main.storyboard */; };
+		DDF8C44C1EE2E48C004715F8 /* YTShared.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDF8C44A1EE2E48C004715F8 /* YTShared.xcdatamodeld */; };
+		DDF8C44E1EE2E48C004715F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF8C44D1EE2E48C004715F8 /* Assets.xcassets */; };
+		DDF8C4511EE2E48C004715F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8C44F1EE2E48C004715F8 /* LaunchScreen.storyboard */; };
+		EC5F94083E88B20DE28D280E /* libPods-YTShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 930EC63CE6DB705CBD1BEA25 /* libPods-YTShared.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		242DCBECD73A8FE36F9A9F66 /* Pods-YTShared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTShared.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTShared/Pods-YTShared.debug.xcconfig"; sourceTree = "<group>"; };
+		930EC63CE6DB705CBD1BEA25 /* libPods-YTShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTShared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F06370C05B7C53893703289 /* Pods-YTShared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTShared.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTShared/Pods-YTShared.release.xcconfig"; sourceTree = "<group>"; };
+		DDF8C43B1EE2E48C004715F8 /* YTShared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTShared.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF8C43F1EE2E48C004715F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDF8C4411EE2E48C004715F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDF8C4421EE2E48C004715F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDF8C4441EE2E48C004715F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDF8C4451EE2E48C004715F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDF8C4481EE2E48C004715F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF8C44B1EE2E48C004715F8 /* YTShared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YTShared.xcdatamodel; sourceTree = "<group>"; };
+		DDF8C44D1EE2E48C004715F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF8C4501EE2E48C004715F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF8C4521EE2E48C004715F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF8C4381EE2E48C004715F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5F94083E88B20DE28D280E /* libPods-YTShared.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ABBD3A41A40586FFB5930AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				242DCBECD73A8FE36F9A9F66 /* Pods-YTShared.debug.xcconfig */,
+				9F06370C05B7C53893703289 /* Pods-YTShared.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D4C5AA57F59C71322B66E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				930EC63CE6DB705CBD1BEA25 /* libPods-YTShared.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF8C4321EE2E48C004715F8 = {
+			isa = PBXGroup;
+			children = (
+				DDF8C43D1EE2E48C004715F8 /* YTShared */,
+				DDF8C43C1EE2E48C004715F8 /* Products */,
+				3ABBD3A41A40586FFB5930AD /* Pods */,
+				9D4C5AA57F59C71322B66E88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF8C43C1EE2E48C004715F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8C43B1EE2E48C004715F8 /* YTShared.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF8C43D1EE2E48C004715F8 /* YTShared */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8C4411EE2E48C004715F8 /* AppDelegate.h */,
+				DDF8C4421EE2E48C004715F8 /* AppDelegate.m */,
+				DDF8C4441EE2E48C004715F8 /* ViewController.h */,
+				DDF8C4451EE2E48C004715F8 /* ViewController.m */,
+				DDF8C4471EE2E48C004715F8 /* Main.storyboard */,
+				DDF8C44D1EE2E48C004715F8 /* Assets.xcassets */,
+				DDF8C44F1EE2E48C004715F8 /* LaunchScreen.storyboard */,
+				DDF8C4521EE2E48C004715F8 /* Info.plist */,
+				DDF8C44A1EE2E48C004715F8 /* YTShared.xcdatamodeld */,
+				DDF8C43E1EE2E48C004715F8 /* Supporting Files */,
+			);
+			path = YTShared;
+			sourceTree = "<group>";
+		};
+		DDF8C43E1EE2E48C004715F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8C43F1EE2E48C004715F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF8C43A1EE2E48C004715F8 /* YTShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF8C4551EE2E48C004715F8 /* Build configuration list for PBXNativeTarget "YTShared" */;
+			buildPhases = (
+				8DFC751904CC1D98C0A8F2F3 /* [CP] Check Pods Manifest.lock */,
+				DDF8C4371EE2E48C004715F8 /* Sources */,
+				DDF8C4381EE2E48C004715F8 /* Frameworks */,
+				DDF8C4391EE2E48C004715F8 /* Resources */,
+				56448A1896FF5D53A154300D /* [CP] Embed Pods Frameworks */,
+				84221A36EDFA7A825199AF44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTShared;
+			productName = YTShared;
+			productReference = DDF8C43B1EE2E48C004715F8 /* YTShared.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF8C4331EE2E48C004715F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ypj;
+				TargetAttributes = {
+					DDF8C43A1EE2E48C004715F8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDF8C4361EE2E48C004715F8 /* Build configuration list for PBXProject "YTShared" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF8C4321EE2E48C004715F8;
+			productRefGroup = DDF8C43C1EE2E48C004715F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF8C43A1EE2E48C004715F8 /* YTShared */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF8C4391EE2E48C004715F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8C4511EE2E48C004715F8 /* LaunchScreen.storyboard in Resources */,
+				DDF8C44E1EE2E48C004715F8 /* Assets.xcassets in Resources */,
+				DDF8C4491EE2E48C004715F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56448A1896FF5D53A154300D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTShared/Pods-YTShared-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84221A36EDFA7A825199AF44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTShared/Pods-YTShared-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFC751904CC1D98C0A8F2F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF8C4371EE2E48C004715F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8C4461EE2E48C004715F8 /* ViewController.m in Sources */,
+				DDF8C44C1EE2E48C004715F8 /* YTShared.xcdatamodeld in Sources */,
+				DDF8C4431EE2E48C004715F8 /* AppDelegate.m in Sources */,
+				DDF8C4401EE2E48C004715F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDF8C4471EE2E48C004715F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF8C4481EE2E48C004715F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF8C44F1EE2E48C004715F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF8C4501EE2E48C004715F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF8C4531EE2E48C004715F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDF8C4541EE2E48C004715F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF8C4561EE2E48C004715F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242DCBECD73A8FE36F9A9F66 /* Pods-YTShared.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTShared/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitu.YTShared;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF8C4571EE2E48C004715F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F06370C05B7C53893703289 /* Pods-YTShared.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YTShared/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yitu.YTShared;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF8C4361EE2E48C004715F8 /* Build configuration list for PBXProject "YTShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8C4531EE2E48C004715F8 /* Debug */,
+				DDF8C4541EE2E48C004715F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF8C4551EE2E48C004715F8 /* Build configuration list for PBXNativeTarget "YTShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8C4561EE2E48C004715F8 /* Debug */,
+				DDF8C4571EE2E48C004715F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDF8C44A1EE2E48C004715F8 /* YTShared.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDF8C44B1EE2E48C004715F8 /* YTShared.xcdatamodel */,
+			);
+			currentVersion = DDF8C44B1EE2E48C004715F8 /* YTShared.xcdatamodel */;
+			path = YTShared.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDF8C4331EE2E48C004715F8 /* Project object */;
+}
