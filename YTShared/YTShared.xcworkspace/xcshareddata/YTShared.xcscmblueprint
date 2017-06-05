@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A87FB9F6508155AF46FA607ECADEF7F3E0691340",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "53E4D9B266D45C7F1459255FE6A2556919A5F90E" : 9223372036854775807,
+    "9A27C2EED860E172BF79DC803AA054119D96BACF" : 9223372036854775807,
+    "A87FB9F6508155AF46FA607ECADEF7F3E0691340" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DD6E7D0C-5BCD-4379-A1D5-5DDD2AA4FF45",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "53E4D9B266D45C7F1459255FE6A2556919A5F90E" : "pc6\/YTShared\/",
+    "9A27C2EED860E172BF79DC803AA054119D96BACF" : "bqBike\/",
+    "A87FB9F6508155AF46FA607ECADEF7F3E0691340" : "YTShared\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YTShared",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YTShared\/YTShared.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/goodjyp\/YTShared.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53E4D9B266D45C7F1459255FE6A2556919A5F90E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.254:10101\/r\/~jyp\/iOS\/bqBike.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A27C2EED860E172BF79DC803AA054119D96BACF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/goodjyp\/YTShared.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A87FB9F6508155AF46FA607ECADEF7F3E0691340"
+    }
+  ]
+}
